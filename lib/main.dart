@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:projeto_imc/Cadastro.dart';
 import 'package:projeto_imc/Home.dart';
 
 void main() {
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Home()
+      home: Cadastro()
     );
   }
 }
